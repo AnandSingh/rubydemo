@@ -1,0 +1,13 @@
+<h1>Directory Listing</h1>
+<p><%= @file_list %></p>
+<pre>
+	<h2> <%= link_to "GO BACK !", say_hello_path%></h2>
+<pre/>
+<h4>
+	File List : 
+	<pre>
+	<% for file in @file_list %>
+        <%= file %>
+	<% end %>
+	<pre/>
+</h4>

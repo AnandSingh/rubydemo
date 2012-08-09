@@ -1,0 +1,5 @@
+class DirController < ApplicationController
+  def listDir
+  @file = Dir.glob('*')
+  end
+end
