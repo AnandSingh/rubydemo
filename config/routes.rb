@@ -1,4 +1,6 @@
 Rubydemo::Application.routes.draw do
+  resources :products
+
   get "dir/listDir"
 
   get "say/hello"
