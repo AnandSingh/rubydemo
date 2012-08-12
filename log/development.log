@@ -1,0 +1,281 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-12 22:10:53 +0530
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-12 22:17:19 +0530
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2012-08-12 22:17:53 +0530
+Processing by SayController#hello as HTML
+  Rendered say/hello.html.erb within layouts/application (35.6ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (undefined local variable or method `dir_listDir_path' for #<#<Class:0x007f35dcdcf668>:0x007f35dc300930>):
+    8: </h3>
+    9: <p>
+    10: <pre>
+    11: 	<%= link_to "List Directory", dir_listDir_path%>
+    12: </pre>
+    13: </p>
+    14: <p> </p>
+  app/views/say/hello.html.erb:11:in `_app_views_say_hello_html_erb__3477676572449036423_19345420'
+
+
+  Rendered /home/anand/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/anand/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/anand/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/say/goodbye" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Processing by SayController#goodbye as HTML
+  Rendered say/goodbye.html.erb within layouts/application (1.9ms)
+Compiled say.css  (6ms)  (pid 13416)
+Compiled application.css  (11ms)  (pid 13416)
+Compiled jquery.js  (2ms)  (pid 13416)
+Compiled jquery_ujs.js  (0ms)  (pid 13416)
+Compiled say.js  (149ms)  (pid 13416)
+Compiled application.js  (172ms)  (pid 13416)
+Completed 200 OK in 246ms (Views: 245.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Served asset /application.css - 200 OK (29ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Served asset /say.css - 200 OK (1ms)
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Served asset /say.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-12 22:18:08 +0530
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2012-08-12 22:18:12 +0530
+Processing by SayController#hello as HTML
+  Rendered say/hello.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `dir_listDir_path' for #<#<Class:0x007f35dcdcf668>:0x00000001a26b50>):
+    8: </h3>
+    9: <p>
+    10: <pre>
+    11: 	<%= link_to "List Directory", dir_listDir_path%>
+    12: </pre>
+    13: </p>
+    14: <p> </p>
+  app/views/say/hello.html.erb:11:in `_app_views_say_hello_html_erb__3477676572449036423_19345420'
+
+
+  Rendered /home/anand/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /home/anand/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/anand/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Processing by SayController#hello as HTML
+  Rendered say/hello.html.erb within layouts/application (0.7ms)
+Compiled dir.css  (1ms)  (pid 13416)
+Compiled application.css  (7ms)  (pid 13416)
+Compiled dir.js  (120ms)  (pid 13416)
+Compiled application.js  (129ms)  (pid 13416)
+Completed 200 OK in 197ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dir.css?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /dir.css - 200 OK (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /say.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/dir.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /dir.js - 200 OK (1ms)
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /say.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:24 +0530
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/dir/listDir" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Processing by DirController#listDir as HTML
+  Rendered dir/listDir.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /say.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/dir.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /dir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /say.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dir.css?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /dir.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-12 22:22:27 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/dir/listDir" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Processing by DirController#listDir as HTML
+  Rendered dir/listDir.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dir.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /dir.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /say.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /say.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dir.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /dir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:12 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Processing by SayController#hello as HTML
+  Rendered say/hello.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dir.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /dir.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /say.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /say.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dir.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:21 +0530
+Served asset /dir.js - 304 Not Modified (0ms)
+
+
+Started GET "/dir/listDir" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Processing by DirController#listDir as HTML
+  Rendered dir/listDir.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dir.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /dir.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.css?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /say.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dir.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /dir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/say.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /say.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-12 22:24:22 +0530
+Served asset /application.js - 304 Not Modified (1ms)
